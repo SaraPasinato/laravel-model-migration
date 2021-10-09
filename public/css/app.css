@@ -11244,6 +11244,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#travels {
+  min-height: 100vh;
+}
+
 #home {
   height: calc(100vh - 168px);
 }
