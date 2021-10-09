@@ -11244,7 +11244,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#home, #contact {
+#home {
   height: calc(100vh - 168px);
 }
 
