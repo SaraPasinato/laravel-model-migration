@@ -1,3 +1,14 @@
 #home,#contact{
     height:calc(100vh - 168px);
 }
+
+#home{
+    background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('https://picsum.photos/id/1043/2000/900/?opacity');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#footer{
+    height: 14vh;
+}

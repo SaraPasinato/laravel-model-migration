@@ -11,7 +11,7 @@
 <body>
     {{-- HEADER --}}
     @include('includes.header')
-    <main >
+    <main>
         @yield('main-content')
     </main>
     {{-- FOOTER --}}
