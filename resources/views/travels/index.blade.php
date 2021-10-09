@@ -6,7 +6,7 @@
   <section id="travels">
       <div class="container-sm  mt-5">
           <h1> Travels Packages </h1>
-          <div class="card-group my-5">
+          <div class="card-group my-5 gx-5">
             <div class="card">
               <img src="https://picsum.photos/id/1018/400/200" class="card-img-top" alt="...">
               <div class="card-body">
