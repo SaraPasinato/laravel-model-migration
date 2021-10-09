@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 //!pagine statiche
 Route::get('/','HomeController@index')->name('home');
-Route::get('/contact','ContactController')->name('contact');
+Route::get('/contact','ContactController@index')->name('contact');
 
+//!travels
+Route::get('/travels',function(){
+    return view('travels.index');
+})->name('travels.index');

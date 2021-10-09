@@ -8,7 +8,7 @@
             <h1 class="text-uppercase ">Plan. Book. Relax.</h1>
             <p class="lead">With our peace of mind flexible cancellation pleacies</p>
             <p class="lead">
-                <a href="#" class="btn btn-lg btn-secondary fw-bold border-primary bg-primary">Learn more</a>
+                <a href="{{route('travels.index')}}" class="btn btn-lg btn-secondary fw-bold border-primary bg-primary">Learn more</a>
               </p>
         </div>
     </section>
